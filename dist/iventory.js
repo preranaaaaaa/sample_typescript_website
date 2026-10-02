@@ -1,4 +1,3 @@
-"use strict";
 // =====================================
 // 1. BASIC TYPES AND VARIABLES
 // =====================================
@@ -114,3 +113,4 @@ function applyDiscountToProducts(products) {
 let discountedProducts = applyDiscountToProducts(products);
 console.log("Discounted Products:");
 console.log(discountedProducts);
+export {};

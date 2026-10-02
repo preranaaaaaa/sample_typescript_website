@@ -203,3 +203,4 @@ let discountedProducts: DiscountedProduct[] =
 
 console.log("Discounted Products:");
 console.log(discountedProducts);
+export {};

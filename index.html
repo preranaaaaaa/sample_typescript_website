@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f4ff;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4936a5;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000015;
+        }
+
+        .card h3 {
+            color: #4936a5;
+        }
+
+        .price {
+            color: #16834a;
+            font-weight: bold;
+        }
+
+        .discount {
+            color: #e16a35;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Product Inventory</h1>
+        <p style="text-align:center;">Available products and their discounted prices</p>
+
+        <div class="products" id="productList"></div>
+    </div>
+
+    <script type="module" src="dist/browser.js"></script>
+</body>
+</html>

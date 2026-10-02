@@ -1,16 +1,19 @@
+
 {
   "name": "awt_assignment",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript Product Inventory Assignment with Browser Display",
+  "main": "dist/iventory.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:browser": "tsc src/browser.ts --target ES2020 --module ES2020 --strict --outDir dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "typescript": "^7.0.2"
   }
 }
+
